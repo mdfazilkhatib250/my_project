@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="head">STUDENT REGISTRATION</h1>
+    <br><br>
+    <form>
+        <label for="NAME">NAME:</label><input type="text" placeholder="ENTER YOUR NAME ">
+        <br><br>
+        <label for="password">PASSWORD:</label><input type="password" placeholder="ENTER YOUR PASS ">
+        <br><br>
+        <label for="email">EMAIL:</label><input type="email" placeholder="ENTER YOUR EMAIL">
+        <br><br>
+        <select>
+            <option value="DEPARTMENT">DEPARTMENT</option>
+            <option value="DEPARTMENT">CSE</option>
+            <option value="DEPARTMENT">EE</option>
+            <option value="DEPARTMENT">AUTO</option>
+            <option value="DEPARTMENT">MECH</option>
+            <option value="DEPARTMENT">EC</option>
+        </select>
+        <br><br>
+        <p>GENDER</p>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">rather not to say
+        <br><br>
+        <p>HOBBIES</p>
+        <input type="checkbox">games
+        <input type="checkbox">gym
+        <input type="checkbox">cricket
+        <input type="checkbox">football
+        <input type="checkbox">powerlifting
+        <br><br> <button id="button">SUBMIT</button>
+    </form>
+
+
+    <script>
+        const button = document.getElementById("button");
+
+        function display() {
+            alert("Your form has been submitted");
+        }
+
+        button.onclick = display;
+    </script>
+
+</body>
+
+</html>
