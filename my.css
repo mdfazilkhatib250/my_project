@@ -1,0 +1,26 @@
+body {
+    background: blanchedalmond;
+}
+
+.head {
+    border: 2px solid;
+    display: inline-block;
+    margin: 0 0 0 300px;
+}
+
+p {
+    font-weight: 600;
+
+}
+
+form {
+    font-weight: 700;
+    margin: 20px 100px 20px 300px;
+}
+
+#button {
+    margin: 200;
+    color: beige;
+    background-color: black;
+
+}
